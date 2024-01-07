@@ -5,46 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c401c7-b33a-449f-883d-db062287d4f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_github_cdimascio_dotenv_java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATM_System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dotenv-java-3.0.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dotenv-java-3.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dimens/Dimens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/AccountVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/AuthFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/AccountStatement/AccountStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/AccountStatement/model/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/CheckBalance/CheckBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Credit/CreditFail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Credit/CreditFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Credit/CreditSuccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/ResetPIN/ResetPIN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/UPI/FailUPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/UPI/SuccessUPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/UPI/UPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Withdrew/WithdrewFail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Withdrew/WithdrewFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Withdrew/WithdrewSuccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Frames/OptionsFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Network/CURD/SqlOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Network/Database/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Network/LocalStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Language/English.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Language/Gujarati.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Language/Hindi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.exenv" beforeDir="false" afterPath="$PROJECT_DIR$/.exenv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

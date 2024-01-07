@@ -7,3 +7,15 @@ BANK_TABLE="bank"
 ACCOUNT_TABLE="account"
 TRANSACTION_TABLE="transactions"
 UPI_TABLE="upi"
+
+
+
+#URL=jdbc:mysql://0.tcp.in.ngrok.io:18232/
+#DATABASE=shinobi_alliance_bank
+#ROOT_USER=root
+#PASSWORD=""
+#USER_TABLE=user
+#BANK_TABLE=bank
+#ACCOUNT_TABLE=account
+#TRANSACTION_TABLE=transactions
+#UPI_TABLE=upi
