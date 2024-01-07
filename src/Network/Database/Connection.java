@@ -1,12 +1,10 @@
 package Network.Database;
 
 import Frames.Options.AccountStatement.model.Transaction;
-import Network.CURD.SqlOperation;
-import Network.LocalStore;
+
 import io.github.cdimascio.dotenv.Dotenv;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,7 +12,7 @@ import java.util.Map;
 import java.util.logging.Logger;
 
 
-public class Connection extends SqlOperation {
+public class Connection {
     private static final Logger LOGGER = Logger.getLogger(Connection.class.getName());
     Dotenv dotenv = Dotenv.load();
     public String url = dotenv.get("URL");
@@ -151,7 +149,7 @@ public class Connection extends SqlOperation {
         return response;
     }
 
-    public Map<String, Object> debitAmount(int amount, int userId, Long accountNumber,String msg) {
+    public Map<String, Object> debitAmount(int amount, int userId, Long accountNumber, String msg) {
         Map<String, Object> response = new HashMap<>();
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
@@ -414,21 +412,21 @@ public class Connection extends SqlOperation {
         return list;
     }
 
-  public boolean changePin(int newPin,int id){
-        try{
+    public boolean changePin(int newPin, int id) {
+        try {
             String query = "UPDATE " + userTable + " SET pin = " + newPin + " WHERE id = " + id;
             Statement statement = connection.createStatement();
             int rowsUpdated = statement.executeUpdate(query);
             LOGGER.info("Pin Updated : \n" + rowsUpdated);
             return true;
-        }catch (Exception e){
+        } catch (Exception e) {
             LOGGER.info("Exception : \n" + e.getMessage());
             return false;
         }
 
     }
 
-    public Map<String,Object> verifyUPI(String upiId){
+    public Map<String, Object> verifyUPI(String upiId) {
         Map<String, Object> response = new HashMap<>();
         try {
             String query = "SELECT * FROM " + upiTable + " WHERE upiId = '" + upiId + "'";
@@ -445,10 +443,10 @@ public class Connection extends SqlOperation {
                     response.put(columnName, columnValue);
                 }
             }
-           if(columnCount>0) {
+            if (columnCount > 0) {
                 LOGGER.info("UPI Verified : \n" + response);
                 return response;
-           }
+            }
         } catch (Exception e) {
             LOGGER.info("Exception : \n" + e.getMessage());
         }
