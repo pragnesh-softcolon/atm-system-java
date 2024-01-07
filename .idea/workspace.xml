@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63c401c7-b33a-449f-883d-db062287d4f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_github_cdimascio_dotenv_java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATM_System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dotenv-java-3.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dotenv-java-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dimens/Dimens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/AccountVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/AuthFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/AccountStatement/AccountStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/AccountStatement/model/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/CheckBalance/CheckBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Credit/CreditFail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Credit/CreditFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Credit/CreditSuccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/ResetPIN/ResetPIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/UPI/FailUPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/UPI/SuccessUPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/UPI/UPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Withdrew/WithdrewFail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Withdrew/WithdrewFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/Options/Withdrew/WithdrewSuccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frames/OptionsFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Network/CURD/SqlOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Network/Database/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Network/LocalStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/Language/English.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/Language/Gujarati.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/Language/Hindi.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Frames/Home.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ZInLpNRThRF75MGehAUvKbxMg6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Connection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Home.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JTabbedPaneExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JTableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JTreeExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Java Scratch.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pragneshkoli/Desktop/ATM_System/src/Frames/Options/Withdrew&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24367817&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Frames/Options/Withdrew" />
+      <recent name="$PROJECT_DIR$/src/Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Network" />
+      <recent name="$PROJECT_DIR$/src/Frames" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ATM_System" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Java Scratch" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="ATM_System" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Main.java" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Main.java" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Java Scratch.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63c401c7-b33a-449f-883d-db062287d4f9" name="Changes" comment="" />
+      <created>1702118407787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702118407787</updated>
+      <workItem from="1702118409019" duration="6840000" />
+      <workItem from="1702125382058" duration="13661000" />
+      <workItem from="1702295578307" duration="1727000" />
+      <workItem from="1702436771603" duration="1222000" />
+      <workItem from="1702531198400" duration="8730000" />
+      <workItem from="1702696934915" duration="7477000" />
+      <workItem from="1702876196542" duration="50000" />
+      <workItem from="1702876273953" duration="8784000" />
+      <workItem from="1702974317983" duration="4331000" />
+      <workItem from="1702992318098" duration="756000" />
+      <workItem from="1703219839260" duration="4449000" />
+      <workItem from="1703307437880" duration="22612000" />
+      <workItem from="1703428309005" duration="12660000" />
+      <workItem from="1703605226831" duration="15571000" />
+      <workItem from="1704097943917" duration="402000" />
+      <workItem from="1704098357222" duration="599000" />
+      <workItem from="1704442568451" duration="391000" />
+      <workItem from="1704442971527" duration="5141000" />
+      <workItem from="1704519334690" duration="12829000" />
+      <workItem from="1704613161734" duration="9552000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
