@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c401c7-b33a-449f-883d-db062287d4f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.exenv" beforeDir="false" afterPath="$PROJECT_DIR$/.exenv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="63c401c7-b33a-449f-883d-db062287d4f9" name="Changes" comment="example env updated">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Network/Database/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network/Database/Connection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +143,15 @@
       <workItem from="1704519334690" duration="12829000" />
       <workItem from="1704613161734" duration="9552000" />
     </task>
+    <task id="LOCAL-00001" summary="example env updated">
+      <option name="closed" value="true" />
+      <created>1704635113101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704635113101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,5 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="example env updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="example env updated" />
   </component>
 </project>

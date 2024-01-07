@@ -79,7 +79,6 @@ public class Connection {
 
             ResultSetMetaData metaData = resultSet.getMetaData();
             int columnCount = metaData.getColumnCount();
-            LOGGER.info("MetaData \n : " + metaData);
             while (resultSet.next()) {
                 for (int i = 1; i <= columnCount; i++) {
                     String columnName = metaData.getColumnName(i);
